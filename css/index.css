@@ -1,0 +1,28 @@
+body {
+  background-image: url("/images/test1.jpg");
+}
+
+h1 {
+  color: rgb(82, 31, 112);
+  font-style: italic;
+  font-family: DK Lemon Yellow Sun;
+  text-align: center;
+}
+
+h2 {
+  color: orangered;
+  font-style: italic;
+  font-family: Ink Free;
+  text-align: left;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-family: sans-serif;
+}
+ul {
+  line-height: 40px;
+}
