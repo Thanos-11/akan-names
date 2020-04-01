@@ -9,36 +9,32 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron bg-info">
         <h1>AKAN NAMES</h1>
         <p>
           Akan names are derived from Ghanian culture. Frequently in Ghana,
           children are given their first name as a 'day name' which corresponds
           to the day in the week they were born.
         </p>
-        <h2 class="try">Try out and see your Akan Name</h2>
+        <h2 class="try">Whats your Gender?</h2>
         <form name="Birthday" onSubmit="return birthdayValidation();">
           <ul>
-            <li><label id="gender">Sex:</label></li>
-            <li>
-              <div class="card">
+            <label id="gender">Sex:</label>
+            <div class="card">
+              <input type="radio" name="Gender" id="gender" value="Male" /><span
+                >Male</span
+              >
+            </div>
+
+            <label id="gender">Sex:</label>
+            <div class="card">
                 <input
                   type="radio"
                   name="Gender"
                   id="gender"
-                  value="Male"
-                /><span>Male</span>
+                  value="Female"
+                /><span>Female</span>
               </div>
-            </li>
-
-            <li><label id="gender">Sex:</label></li>
-            <li>
-              <input
-                type="radio"
-                name="Gender"
-                id="gender"
-                value="Female"
-              /><span>Female</span>
             </li>
           </ul>
         </form>
