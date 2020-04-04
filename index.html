@@ -17,10 +17,12 @@
         </p>
       </div>
       <div class="card">
-        <p class=bg-info>Interested to find out yours? then fill the form below!</p>
+        <p class=bg-info style="color: rgb(241, 28, 0);>Interested to find out yours? then fill the form below!</p>
         </div>
-        <h2 class="try">Try out and see your Akan Name</h2>
-        <div class="col-md-7">
+        <h2 class="fetch">Try out and see your Akan Name</h2>
+
+
+         <div class="col-md-7">
           <form onsubmit="result()" method="post" class="Akan">
               <div class="form-group">
                   <label for="Year"><h4 style="color: rgb(50, 3, 88);">Year</h4></label>
@@ -40,32 +42,43 @@
                   <label for="male">Male</label><br>
                   <input type="radio" id="female" name="gender" value="female">
                   <label for="female">Female</label><br>
-                  <div>
-                    <button type="submit" onclick=result() onsubmit="changeText" >Submit </button><br>
-                    <br>    
-                </div>
-                <input type="reset" value="Start Again">
-                </form>
-              </div>
-              <div class="row output"> 
-                <p id="result"></p>
 
-            </div>
+              <div>
+                  <button type="submit" onclick=result() onsubmit="changeText" >Submit </button><br>
+                  <br> 
+                   
+              </div>
+              <input type="reset" value="Start Again">
+          </form>
       </div>
-    </div>
-    <tr>
-      <td>
-        <label for="comments" Comments></label>
-      </td>
-      <td>
-        <textarea
-          name="comments"
-          placeholder="Any comments or suggestions go here"
-          maxlength="1000"
-          cols="25"
-          rows="6"
-        ></textarea>
-      </td>
-    </tr>
-  </body>
+      
+              <div class="row output"> 
+                      <p id="result"></p>
+      
+                  </div>
+      
+
+
+  </div>
+
+</div>
+   
+
+</div>
+<tr>
+<td>
+  <label for="comments" Comments></label>
+</td>
+<td>
+  <textarea
+    name="comments"
+    placeholder="Type your suggestions here"
+    maxlength="1000"
+    cols="25"
+    rows="6"
+  ></textarea>
+</td>
+</tr>
+<script src="JS/akan.js"></script>
+</body>
 </html>
