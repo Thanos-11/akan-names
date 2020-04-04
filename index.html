@@ -18,24 +18,28 @@
       </div>
       <div class="card">
         <p class=bg-info>Interested to find out yours? then fill the form below!</p>
-        <h2 class="try">Whats your Gender?</h2>
-        <form name="Birthday" onSubmit="return birthdayValidation();">
-          <ul>
-            <label id="gender">Sex:</label>
-            <div class="card">
-              <input type="radio" name="Gender" id="gender" value="Male" /><span
-                >Male</span
-              >
-            </div>
-
-            <label id="gender">Sex:</label>
-            <div class="card">
-                <input
-                  type="radio"
-                  name="Gender"
-                  id="gender"
-                  value="Female"
-                /><span>Female</span>
+        </div>
+        <h2 class="try">Try out and see your Akan Name</h2>
+        <div class="col-md-7">
+          <form onsubmit="result()" method="post" class="Akan">
+              <div class="form-group">
+                  <label for="Year"><h4 style="color: rgb(50, 3, 88);">Year</h4></label>
+                  <input type="year" class="form-control" id="year" placeholder="eg.2020" required>
+              </div>
+              <div class="form-group">
+                  <label for="month"><h4 style="color: rgb(50, 3, 88);">Month</h4></label>
+                  <input type="number" class="form-control" id="month" placeholder="eg.9" min="1" max="12" required>  
+              </div>
+              <div class="form-group">
+                  <label for="date"><h4 style="color: rgb(50, 3, 88);">Date</h4></label>
+                  <input type="text" class="form-control" id="day" placeholder="eg.11" min="1" max="31" required>
+              </div>
+              
+              <label><h4 style="color: rgb(15, 24, 97);"><em> Your Gender</em></h4></label><br>
+              <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label><br>
               </div>
             </li>
           </ul>
