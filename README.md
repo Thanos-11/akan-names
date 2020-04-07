@@ -31,5 +31,5 @@ My GitHub link is https://github.com/Thanos-11
 For the live link Github pages was used for the site to go live
 
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+License for the web application
+Copyright (c) 2020 **{MIT License}**
