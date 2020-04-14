@@ -1,3 +1,10 @@
+$(document).ready(function () {
+  $(".clickable").click(function () {
+    $("#akan-showing").fadeToggle();
+    $("#akan-hidden").fadeIn()();
+  });
+});
+
 var maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
