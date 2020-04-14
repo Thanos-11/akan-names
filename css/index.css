@@ -1,6 +1,20 @@
-.akan-showing {
+#akan-showing {
   display: none;
 }
+
+.clickable {
+  cursor: pointer;
+  color: #a01789;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+#akan-hidden {
+  color: rgb(247, 244, 244);
+}
+
 ul.Naames {
   color: rgb(247, 244, 244);
   background-color: #2e2e2b;
